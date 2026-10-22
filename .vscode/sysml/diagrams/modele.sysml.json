@@ -1,0 +1,53 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "MonPremierModele": {
+      "gv": {
+        "gvViews": {
+          "group": {
+            "layout": {
+              "MonPremierModele::SystemeVelocommande": {
+                "x": 8,
+                "y": 128,
+                "parentKey": null,
+                "collapsedW": 150,
+                "collapsedH": 108
+              },
+              "MonPremierModele::monVelocommande": {
+                "x": 21,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 123,
+                "collapsedH": 72
+              }
+            },
+            "ports": {},
+            "edgeRoutes": {},
+            "edgeAnchors": {},
+            "edgeGeometry": {
+              "definedBy:MonPremierModele::monVelocommande->MonPremierModele::SystemeVelocommande": {
+                "sourceHandle": "bottom",
+                "targetHandle": "top:0.497",
+                "path": "M 82.5,80L 82.55,128",
+                "lineStyle": "straight",
+                "sourcePoint": {
+                  "x": 82.5,
+                  "y": 80
+                },
+                "targetPoint": {
+                  "x": 82.55,
+                  "y": 128
+                },
+                "label": {
+                  "x": 82.525,
+                  "y": 104
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
