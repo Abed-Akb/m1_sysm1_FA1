@@ -1,0 +1,149 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "ATMD_CasUtilisation::systeme": {
+      "iv": {
+        "layout": {
+          "ATMD_CasUtilisation::systeme": {
+            "x": 1,
+            "y": -22,
+            "parentKey": null,
+            "w": 489,
+            "h": 340
+          },
+          "ATMD_CasUtilisation::systeme::utilisateur": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "ATMD_CasUtilisation::systeme",
+            "collapsedW": 191,
+            "collapsedH": 58
+          },
+          "ATMD_CasUtilisation::systeme::gestionnaire": {
+            "x": 262,
+            "y": 48,
+            "parentKey": "ATMD_CasUtilisation::systeme",
+            "collapsedW": 205,
+            "collapsedH": 58
+          },
+          "ATMD_CasUtilisation::systeme::agentSecurite": {
+            "x": 22,
+            "y": 154,
+            "parentKey": "ATMD_CasUtilisation::systeme",
+            "collapsedW": 218,
+            "collapsedH": 58
+          },
+          "ATMD_CasUtilisation::systeme::technicien": {
+            "x": 22,
+            "y": 260,
+            "parentKey": "ATMD_CasUtilisation::systeme",
+            "collapsedW": 252,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {}
+      }
+    },
+    "ATMD_CasUtilisation": {
+      "gv": {
+        "gvViews": {
+          "group": {
+            "layout": {
+              "ATMD_CasUtilisation::Gestionnaire": {
+                "x": 128,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "ATMD_CasUtilisation::AgentSecurite": {
+                "x": 262,
+                "y": 24,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 58
+              },
+              "ATMD_CasUtilisation::TechnicienMaintenance": {
+                "x": 8,
+                "y": 82,
+                "parentKey": null,
+                "collapsedW": 164,
+                "collapsedH": 58
+              },
+              "ATMD_CasUtilisation::DemanderAccesNFC": {
+                "x": 372,
+                "y": -68,
+                "parentKey": null,
+                "collapsedW": 130,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::GererAutorisations": {
+                "x": 320,
+                "y": 155,
+                "parentKey": null,
+                "collapsedW": 143,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::ConsulterAcces": {
+                "x": 550,
+                "y": 21,
+                "parentKey": null,
+                "collapsedW": 116,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::SurveillerEtatPortes": {
+                "x": 561,
+                "y": 150.99999999999997,
+                "parentKey": null,
+                "collapsedW": 157,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::ConsulterAlertes": {
+                "x": 534,
+                "y": 277,
+                "parentKey": null,
+                "collapsedW": 130,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::GererSituationUrgence": {
+                "x": 544,
+                "y": -100.5,
+                "parentKey": null,
+                "collapsedW": 164,
+                "collapsedH": 108
+              },
+              "ATMD_CasUtilisation::SystemeATMD": {
+                "x": 141,
+                "y": 10,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 220
+              },
+              "ATMD_CasUtilisation::parts": {
+                "x": 8,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 134
+              },
+              "ATMD_CasUtilisation::useCases": {
+                "x": 161,
+                "y": -6,
+                "parentKey": null,
+                "collapsedW": 239,
+                "collapsedH": 204
+              }
+            },
+            "ports": {},
+            "edgeRoutes": {},
+            "edgeAnchors": {},
+            "edgeGeometry": {}
+          }
+        }
+      }
+    }
+  }
+}
