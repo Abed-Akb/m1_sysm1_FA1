@@ -1,0 +1,645 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "Interconnexion": {
+      "iv": {
+        "layout": {
+          "Interconnexion::ATMD_PreviAccess": {
+            "x": -139.03935774532988,
+            "y": 16,
+            "parentKey": null,
+            "w": 1628.0393577453299,
+            "h": 583,
+            "placedByHand": true
+          },
+          "Interconnexion::SmartphoneNFC": {
+            "x": 16,
+            "y": 833.2666666666668,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::LecteurNFC": {
+            "x": 965,
+            "y": 628.6666666666667,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::ControleurLocal": {
+            "x": 131,
+            "y": 628.6666666666667,
+            "parentKey": null,
+            "w": 205,
+            "h": 80
+          },
+          "Interconnexion::BaseAutorisations": {
+            "x": 16,
+            "y": 743.2666666666668,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::PorteAutomatique": {
+            "x": 312,
+            "y": 743.2666666666668,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::CapteursPorte": {
+            "x": 596,
+            "y": 743.2666666666668,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::ModuleAnalyse": {
+            "x": 549,
+            "y": 628.6666666666667,
+            "parentKey": null,
+            "w": 210,
+            "h": 58
+          },
+          "Interconnexion::InterfaceSupervision": {
+            "x": 874,
+            "y": 743.2666666666668,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "Interconnexion::ATMD_PreviAccess::smartphone": {
+            "x": 16,
+            "y": 145.00586025666541,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 198,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::lecteurNFC": {
+            "x": 283.6317929409064,
+            "y": 148.03729338968617,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 177,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur": {
+            "x": 603.5913017766798,
+            "y": 158.1768782847939,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 211,
+            "collapsedH": 203,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::baseAutorisations": {
+            "x": 1034.2268906186077,
+            "y": 79.86392319168175,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 273,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::porte": {
+            "x": 1028.7711101898064,
+            "y": 229.8936247793245,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 184,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::capteurs": {
+            "x": 257.3723357703809,
+            "y": 336.33883828171645,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 184,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::analyse": {
+            "x": 1047.5726550818365,
+            "y": 384.849405208126,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 210,
+            "collapsedH": 79,
+            "placedByHand": true
+          },
+          "Interconnexion::ATMD_PreviAccess::supervision": {
+            "x": 1352.686667100589,
+            "y": 382.99413974333453,
+            "parentKey": "Interconnexion::ATMD_PreviAccess",
+            "collapsedW": 252,
+            "collapsedH": 79,
+            "placedByHand": true
+          }
+        },
+        "ports": {
+          "Interconnexion::SmartphoneNFC.nfc": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::LecteurNFC.donnees": {
+            "side": "left",
+            "offset": 0.62
+          },
+          "Interconnexion::LecteurNFC.nfc": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::ControleurLocal.autorisations": {
+            "side": "left",
+            "offset": 0.34
+          },
+          "Interconnexion::ControleurLocal.capteurs": {
+            "side": "left",
+            "offset": 0.92
+          },
+          "Interconnexion::ControleurLocal.lecteur": {
+            "side": "right",
+            "offset": 0.34
+          },
+          "Interconnexion::ControleurLocal.porte": {
+            "side": "right",
+            "offset": 0.63
+          },
+          "Interconnexion::ControleurLocal.analyse": {
+            "side": "right",
+            "offset": 0.92
+          },
+          "Interconnexion::BaseAutorisations.controleur": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::PorteAutomatique.commande": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::CapteursPorte.mesures": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::ModuleAnalyse.supervision": {
+            "side": "left",
+            "offset": 0.62
+          },
+          "Interconnexion::ModuleAnalyse.controleur": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::InterfaceSupervision.analyse": {
+            "side": "right",
+            "offset": 0.62
+          },
+          "Interconnexion::ATMD_PreviAccess::smartphone.nfc": {
+            "side": "right",
+            "offset": 0.3341900336484539
+          },
+          "Interconnexion::ATMD_PreviAccess::lecteurNFC.donnees": {
+            "side": "right",
+            "offset": 0.4782752720577052,
+            "label": {
+              "dx": -13.136194824423864,
+              "dy": 13.641449098593574
+            }
+          },
+          "Interconnexion::ATMD_PreviAccess::lecteurNFC.nfc": {
+            "side": "left",
+            "offset": 0.3341900336484539
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur.autorisations": {
+            "side": "right",
+            "offset": 0.08866995073891626
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur.capteurs": {
+            "side": "left",
+            "offset": 0.7086162145238789
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur.lecteur": {
+            "side": "left",
+            "offset": 0.4995519093583155,
+            "label": {
+              "dx": 4.041895425361481,
+              "dy": 5.557635119871245
+            }
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur.porte": {
+            "side": "right",
+            "offset": 0.39244663382594425
+          },
+          "Interconnexion::ATMD_PreviAccess::controleur.analyse": {
+            "side": "right",
+            "offset": 0.7274220032840724
+          },
+          "Interconnexion::ATMD_PreviAccess::baseAutorisations.controleur": {
+            "side": "left",
+            "offset": 0.7721518987341772
+          },
+          "Interconnexion::ATMD_PreviAccess::porte.commande": {
+            "side": "left",
+            "offset": 0.7721518987341772
+          },
+          "Interconnexion::ATMD_PreviAccess::capteurs.mesures": {
+            "side": "right",
+            "offset": 0.7721518987341772
+          },
+          "Interconnexion::ATMD_PreviAccess::analyse.supervision": {
+            "side": "right",
+            "offset": 0.3341900336484537
+          },
+          "Interconnexion::ATMD_PreviAccess::analyse.controleur": {
+            "side": "left",
+            "offset": 0.22784810126582278
+          },
+          "Interconnexion::ATMD_PreviAccess::supervision.analyse": {
+            "side": "left",
+            "offset": 0.3341900336484537
+          }
+        },
+        "edgeRoutes": {"connect:Interconnexion::ATMD_PreviAccess::lecteurNFC.donnees->Interconnexion::ATMD_PreviAccess::controleur.lecteur":[{"x":382,"y":280},{"x":427,"y":284},{"x":430,"y":283},{"x":425,"y":286},{"x":427,"y":285},{"x":429,"y":284},{"x":430,"y":279},{"x":430,"y":283},{"x":427,"y":279},{"x":430,"y":284},{"x":431,"y":287},{"x":427,"y":281},{"x":430,"y":286},{"x":428,"y":276},{"x":428,"y":283},{"x":443,"y":284},{"x":444,"y":280},{"x":442,"y":282},{"x":438,"y":282},{"x":440,"y":281},{"x":444,"y":283}]},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:Interconnexion::ATMD_PreviAccess::smartphone.nfc->Interconnexion::ATMD_PreviAccess::lecteurNFC.nfc": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Asmartphone.nfc",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3AlecteurNFC.nfc",
+            "path": "M 84.961,187.407 L 108.261,187.407 Q 109.777,187.407 109.777,188.923 L 109.777,188.923 Q 109.777,190.438 111.292,190.438 L 134.592,190.438",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 84.96064225467012,
+              "y": 187.40687291489328
+            },
+            "targetPoint": {
+              "x": 134.5924351955765,
+              "y": 190.43830604791404
+            },
+            "label": {
+              "x": 97.36859048989672,
+              "y": 187.40687291489328
+            },
+            "points": [
+              {
+                "x": 84.96064225467012,
+                "y": 187.40687291489328
+              },
+              {
+                "x": 109.77653872512332,
+                "y": 187.40687291489328
+              },
+              {
+                "x": 109.77653872512332,
+                "y": 190.43830604791404
+              },
+              {
+                "x": 134.5924351955765,
+                "y": 190.43830604791404
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::lecteurNFC.donnees->Interconnexion::ATMD_PreviAccess::controleur.lecteur": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3AlecteurNFC.donnees",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acontroleur.lecteur",
+            "path": "M 331.592,201.821 L 374,201.821 Q 382,201.821 382,209.821 L 382,276 Q 382,284 390,284 L 429.5,284 Q 430,284 430,283.5 L 430,283.5 Q 430,283 429.5,283 L 426.5,283 Q 425,283 425,284.5 L 425,285 Q 425,286 426,286 L 426,286 Q 427,286 427,285 L 427,285 Q 427,284 428,284 L 428.5,284 Q 430,284 430,282.5 L 430,279 L 430,281.5 Q 430,283 428.5,283 L 428.5,283 Q 427,283 427,281.5 L 427,280.5 Q 427,279 428.5,279 L 428.5,279 Q 430,279 430,280.5 L 430,286.5 Q 430,287 430.5,287 L 430.5,287 Q 431,287 431,286.5 L 431,283 Q 431,281 429,281 L 429,281 Q 427,281 427,283 L 427,284.5 Q 427,286 428.5,286 L 428.5,286 Q 430,286 430,284.5 L 430,277 Q 430,276 429,276 L 429,276 Q 428,276 428,277 L 428,280 Q 428,284 432,284 L 442,284 Q 444,284 444,282 L 444,281 Q 444,280 443,280 L 443,280 Q 442,280 442,281 L 442,281 Q 442,282 441,282 L 438.5,282 Q 438,282 438,281.5 L 438,281.5 Q 438,281 438.5,281 L 443,281 Q 444,281 444,282 L 444,282 Q 444,283 445,283 L 450.845,283 Q 454.552,283 454.552,279.293 L 454.552,275.586",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 331.5924351955765,
+              "y": 201.8210398822449
+            },
+            "targetPoint": {
+              "x": 454.5519440313499,
+              "y": 275.5859158845319
+            },
+            "label": {
+              "x": 408.1897516123197,
+              "y": 284
+            },
+            "points": [
+              {
+                "x": 331.5924351955765,
+                "y": 201.8210398822449
+              },
+              {
+                "x": 382,
+                "y": 201.8210398822449
+              },
+              {
+                "x": 382,
+                "y": 284
+              },
+              {
+                "x": 430,
+                "y": 284
+              },
+              {
+                "x": 430,
+                "y": 283
+              },
+              {
+                "x": 425,
+                "y": 283
+              },
+              {
+                "x": 425,
+                "y": 286
+              },
+              {
+                "x": 427,
+                "y": 286
+              },
+              {
+                "x": 427,
+                "y": 284
+              },
+              {
+                "x": 430,
+                "y": 284
+              },
+              {
+                "x": 430,
+                "y": 279
+              },
+              {
+                "x": 430,
+                "y": 283
+              },
+              {
+                "x": 427,
+                "y": 283
+              },
+              {
+                "x": 427,
+                "y": 279
+              },
+              {
+                "x": 430,
+                "y": 279
+              },
+              {
+                "x": 430,
+                "y": 287
+              },
+              {
+                "x": 431,
+                "y": 287
+              },
+              {
+                "x": 431,
+                "y": 281
+              },
+              {
+                "x": 427,
+                "y": 281
+              },
+              {
+                "x": 427,
+                "y": 286
+              },
+              {
+                "x": 430,
+                "y": 286
+              },
+              {
+                "x": 430,
+                "y": 276
+              },
+              {
+                "x": 428,
+                "y": 276
+              },
+              {
+                "x": 428,
+                "y": 284
+              },
+              {
+                "x": 444,
+                "y": 284
+              },
+              {
+                "x": 444,
+                "y": 280
+              },
+              {
+                "x": 442,
+                "y": 280
+              },
+              {
+                "x": 442,
+                "y": 282
+              },
+              {
+                "x": 438,
+                "y": 282
+              },
+              {
+                "x": 438,
+                "y": 281
+              },
+              {
+                "x": 444,
+                "y": 281
+              },
+              {
+                "x": 444,
+                "y": 283
+              },
+              {
+                "x": 454.5519440313499,
+                "y": 283
+              },
+              {
+                "x": 454.5519440313499,
+                "y": 275.5859158845319
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::controleur.autorisations->Interconnexion::ATMD_PreviAccess::baseAutorisations.controleur": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acontroleur.autorisations",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3AbaseAutorisations.controleur",
+            "path": "M 685.552,192.177 L 777.37,192.177 Q 785.37,192.177 785.37,184.177 L 785.37,164.864 Q 785.37,156.864 793.37,156.864 L 885.188,156.864",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 685.5519440313499,
+              "y": 192.1768782847939
+            },
+            "targetPoint": {
+              "x": 885.1875328732779,
+              "y": 156.86392319168175
+            },
+            "label": {
+              "x": 735.4608412418319,
+              "y": 192.1768782847939
+            },
+            "points": [
+              {
+                "x": 685.5519440313499,
+                "y": 192.1768782847939
+              },
+              {
+                "x": 785.3697384523139,
+                "y": 192.1768782847939
+              },
+              {
+                "x": 785.3697384523139,
+                "y": 156.86392319168175
+              },
+              {
+                "x": 885.1875328732779,
+                "y": 156.86392319168175
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::controleur.porte->Interconnexion::ATMD_PreviAccess::porte.commande": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acontroleur.porte",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3Aporte.commande",
+            "path": "M 685.552,253.844 L 765.142,253.844 Q 773.142,253.844 773.142,261.844 L 773.142,298.894 Q 773.142,306.894 781.142,306.894 L 879.732,306.894",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 685.5519440313499,
+              "y": 253.8435449514606
+            },
+            "targetPoint": {
+              "x": 879.7317524444766,
+              "y": 306.8936247793245
+            },
+            "label": {
+              "x": 826.4368003411948,
+              "y": 306.8936247793245
+            },
+            "points": [
+              {
+                "x": 685.5519440313499,
+                "y": 253.8435449514606
+              },
+              {
+                "x": 773.1418482379132,
+                "y": 253.8435449514606
+              },
+              {
+                "x": 773.1418482379132,
+                "y": 306.8936247793245
+              },
+              {
+                "x": 879.7317524444766,
+                "y": 306.8936247793245
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::capteurs.mesures->Interconnexion::ATMD_PreviAccess::controleur.capteurs": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acapteurs.mesures",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acontroleur.capteurs",
+            "path": "M 312.333,413.339 L 381.588,413.339 Q 389.588,413.339 389.588,405.339 L 389.588,326.026 Q 389.588,318.026 397.588,318.026 L 454.552,318.026",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 312.33297802505103,
+              "y": 413.33883828171645
+            },
+            "targetPoint": {
+              "x": 454.5519440313499,
+              "y": 318.0259698331413
+            },
+            "label": {
+              "x": 389.5879061799736,
+              "y": 365.68240405742887
+            },
+            "points": [
+              {
+                "x": 312.33297802505103,
+                "y": 413.33883828171645
+              },
+              {
+                "x": 389.5879061799736,
+                "y": 413.33883828171645
+              },
+              {
+                "x": 389.5879061799736,
+                "y": 318.0259698331413
+              },
+              {
+                "x": 454.5519440313499,
+                "y": 318.0259698331413
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::controleur.analyse->Interconnexion::ATMD_PreviAccess::analyse.controleur": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Acontroleur.analyse",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3Aanalyse.controleur",
+            "path": "M 685.552,321.844 L 775.043,321.844 Q 783.043,321.844 783.043,329.844 L 783.043,410.849 Q 783.043,418.849 791.043,418.849 L 898.533,418.849",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 685.5519440313499,
+              "y": 321.84354495146056
+            },
+            "targetPoint": {
+              "x": 898.5332973365066,
+              "y": 418.849405208126
+            },
+            "label": {
+              "x": 840.7879590102175,
+              "y": 418.849405208126
+            },
+            "points": [
+              {
+                "x": 685.5519440313499,
+                "y": 321.84354495146056
+              },
+              {
+                "x": 783.0426206839284,
+                "y": 321.84354495146056
+              },
+              {
+                "x": 783.0426206839284,
+                "y": 418.849405208126
+              },
+              {
+                "x": 898.5332973365066,
+                "y": 418.849405208126
+              }
+            ],
+            "corner": 8
+          },
+          "connect:Interconnexion::ATMD_PreviAccess::analyse.supervision->Interconnexion::ATMD_PreviAccess::supervision.analyse": {
+            "sourceHandle": "sysml-port-anchor:right:Interconnexion%3A%3AATMD_PreviAccess%3A%3Aanalyse.supervision",
+            "targetHandle": "sysml-port-anchor:left:Interconnexion%3A%3AATMD_PreviAccess%3A%3Asupervision.analyse",
+            "path": "M 1128.533,427.25 L 1165.163,427.25 Q 1166.09,427.25 1166.09,426.323 L 1166.09,426.323 Q 1166.09,425.395 1167.018,425.395 L 1203.647,425.395",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1128.5332973365066,
+              "y": 427.2504178663538
+            },
+            "targetPoint": {
+              "x": 1203.647309355259,
+              "y": 425.39515240156237
+            },
+            "label": {
+              "x": 1147.3118003411946,
+              "y": 427.2504178663538
+            },
+            "points": [
+              {
+                "x": 1128.5332973365066,
+                "y": 427.2504178663538
+              },
+              {
+                "x": 1166.0903033458828,
+                "y": 427.2504178663538
+              },
+              {
+                "x": 1166.0903033458828,
+                "y": 425.39515240156237
+              },
+              {
+                "x": 1203.647309355259,
+                "y": 425.39515240156237
+              }
+            ],
+            "corner": 8
+          }
+        }
+      }
+    }
+  }
+}

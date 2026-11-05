@@ -1,0 +1,557 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "VueGenerale": {
+      "gv": {
+        "gvViews": {
+          "group": {
+            "layout": {
+              "VueGenerale::UTILISATEUR": {
+                "x": 8,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 119,
+                "collapsedH": 50,
+                "placedByHand": true
+              },
+              "VueGenerale::GESTIONNAIRE": {
+                "x": 144,
+                "y": 82,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "VueGenerale::AGENTSECURITE": {
+                "x": 280,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 58
+              },
+              "VueGenerale::TECHNICIEN": {
+                "x": 424,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "VueGenerale::SECURITEINCENDIE": {
+                "x": 560,
+                "y": 8,
+                "parentKey": null,
+                "collapsedW": 130,
+                "collapsedH": 58
+              },
+              "VueGenerale::SmartphoneNFC": {
+                "x": 8,
+                "y": 98,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 58
+              },
+              "VueGenerale::LecteurNFC": {
+                "x": 152,
+                "y": 156,
+                "parentKey": null,
+                "collapsedW": 104,
+                "collapsedH": 58
+              },
+              "VueGenerale::ControleurLocal": {
+                "x": 288,
+                "y": 98,
+                "parentKey": null,
+                "collapsedW": 123,
+                "collapsedH": 58
+              },
+              "VueGenerale::BaseAutorisations": {
+                "x": 448,
+                "y": 98,
+                "parentKey": null,
+                "collapsedW": 136,
+                "collapsedH": 58
+              },
+              "VueGenerale::PorteAutomatique": {
+                "x": 616,
+                "y": 98,
+                "parentKey": null,
+                "collapsedW": 130,
+                "collapsedH": 58
+              },
+              "VueGenerale::CapteursPorte": {
+                "x": 8,
+                "y": 188,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 58
+              },
+              "VueGenerale::ModuleAnalyse": {
+                "x": 152,
+                "y": 230,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 58
+              },
+              "VueGenerale::InterfaceSupervision": {
+                "x": 296,
+                "y": 188,
+                "parentKey": null,
+                "collapsedW": 157,
+                "collapsedH": 58
+              },
+              "VueGenerale::IdentificationNFC": {
+                "x": 488,
+                "y": 188,
+                "parentKey": null,
+                "collapsedW": 136,
+                "collapsedH": 86
+              },
+              "VueGenerale::GestionAutorisations": {
+                "x": 8,
+                "y": 304,
+                "parentKey": null,
+                "collapsedW": 157,
+                "collapsedH": 72
+              },
+              "VueGenerale::TraitementAcces": {
+                "x": 656,
+                "y": 188,
+                "parentKey": null,
+                "collapsedW": 123,
+                "collapsedH": 72
+              },
+              "VueGenerale::CommandeAcces": {
+                "x": 200,
+                "y": 304,
+                "parentKey": null,
+                "collapsedW": 109,
+                "collapsedH": 72
+              },
+              "VueGenerale::SurveillanceMaintenance": {
+                "x": 344,
+                "y": 306,
+                "parentKey": null,
+                "collapsedW": 177,
+                "collapsedH": 100
+              },
+              "VueGenerale::ATMD_PreviAccess": {
+                "x": 560,
+                "y": 306,
+                "parentKey": null,
+                "collapsedW": 130,
+                "collapsedH": 128
+              },
+              "VueGenerale::VueGeneraleSysteme": {
+                "x": 8,
+                "y": 382,
+                "parentKey": null,
+                "collapsedW": 143,
+                "collapsedH": 142
+              }
+            },
+            "ports": {},
+            "edgeRoutes": {},
+            "edgeAnchors": {},
+            "edgeGeometry": {},
+            "hiddenElements": []
+          }
+        }
+      },
+      "iv": {
+        "hiddenElements": [
+          "VueGenerale::AGENTSECURITE",
+          "VueGenerale::TECHNICIEN",
+          "VueGenerale::SECURITEINCENDIE",
+          "VueGenerale::SmartphoneNFC",
+          "VueGenerale::LecteurNFC",
+          "VueGenerale::ControleurLocal",
+          "VueGenerale::BaseAutorisations",
+          "VueGenerale::PorteAutomatique",
+          "VueGenerale::CapteursPorte",
+          "VueGenerale::UTILISATEUR",
+          "VueGenerale::GESTIONNAIRE",
+          "VueGenerale::ModuleAnalyse",
+          "VueGenerale::InterfaceSupervision",
+          "VueGenerale::IdentificationNFC",
+          "VueGenerale::GestionAutorisations",
+          "VueGenerale::TraitementAcces",
+          "VueGenerale::CommandeAcces",
+          "VueGenerale::SurveillanceMaintenance",
+          "VueGenerale::ATMD_PreviAccess"
+        ],
+        "layout": {
+          "VueGenerale::VueGeneraleSysteme": {
+            "x": -137.80257024452163,
+            "y": 102.37887558041008,
+            "parentKey": null,
+            "w": 1037,
+            "h": 462,
+            "placedByHand": true
+          },
+          "VueGenerale::ATMD_PreviAccess": {
+            "x": -157.58013420798773,
+            "y": 745.2727984764097,
+            "parentKey": null,
+            "w": 691,
+            "h": 600,
+            "placedByHand": true
+          },
+          "VueGenerale::IdentificationNFC": {
+            "x": 1108,
+            "y": 372,
+            "parentKey": null,
+            "w": 242,
+            "h": 218
+          },
+          "VueGenerale::GestionAutorisations": {
+            "x": 1108,
+            "y": 638,
+            "parentKey": null,
+            "w": 242,
+            "h": 128
+          },
+          "VueGenerale::TraitementAcces": {
+            "x": 1108,
+            "y": 814,
+            "parentKey": null,
+            "w": 255,
+            "h": 128
+          },
+          "VueGenerale::CommandeAcces": {
+            "x": 1452,
+            "y": 16,
+            "parentKey": null,
+            "w": 228,
+            "h": 128
+          },
+          "VueGenerale::SurveillanceMaintenance": {
+            "x": 1108,
+            "y": 16,
+            "parentKey": null,
+            "w": 296,
+            "h": 308
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "w": 545,
+            "h": 392
+          },
+          "VueGenerale::ATMD_PreviAccess::identification": {
+            "x": 366,
+            "y": 35,
+            "parentKey": "VueGenerale::ATMD_PreviAccess",
+            "w": 242,
+            "h": 218
+          },
+          "VueGenerale::ATMD_PreviAccess::autorisations": {
+            "x": 366,
+            "y": 301,
+            "parentKey": "VueGenerale::ATMD_PreviAccess",
+            "w": 228,
+            "h": 128
+          },
+          "VueGenerale::ATMD_PreviAccess::traitement": {
+            "x": 22,
+            "y": 391,
+            "parentKey": "VueGenerale::ATMD_PreviAccess",
+            "w": 255,
+            "h": 128
+          },
+          "VueGenerale::ATMD_PreviAccess::commande": {
+            "x": 326,
+            "y": 477,
+            "parentKey": "VueGenerale::ATMD_PreviAccess",
+            "w": 228,
+            "h": 128
+          },
+          "VueGenerale::ATMD_PreviAccess::surveillance": {
+            "x": 22,
+            "y": 35,
+            "parentKey": "VueGenerale::ATMD_PreviAccess",
+            "w": 296,
+            "h": 308
+          },
+          "VueGenerale::UTILISATEUR": {
+            "x": 1101,
+            "y": 990,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::GESTIONNAIRE": {
+            "x": 1101,
+            "y": 1080,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::AGENTSECURITE": {
+            "x": 694,
+            "y": 16,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::TECHNICIEN": {
+            "x": 694,
+            "y": 106,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::SECURITEINCENDIE": {
+            "x": 694,
+            "y": 196,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::SmartphoneNFC": {
+            "x": 694,
+            "y": 286,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::LecteurNFC": {
+            "x": 694,
+            "y": 376,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::BaseAutorisations": {
+            "x": 694,
+            "y": 556,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::ControleurLocal": {
+            "x": 694,
+            "y": 466,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::PorteAutomatique": {
+            "x": 1452,
+            "y": 176,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::CapteursPorte": {
+            "x": 1452,
+            "y": 266,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::ModuleAnalyse": {
+            "x": 1452,
+            "y": 356,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::InterfaceSupervision": {
+            "x": 1452,
+            "y": 446,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme::identification": {
+            "x": 22,
+            "y": 180,
+            "parentKey": "VueGenerale::VueGeneraleSysteme::systeme",
+            "collapsedW": 252,
+            "collapsedH": 86
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme::autorisations": {
+            "x": 22,
+            "y": 298,
+            "parentKey": "VueGenerale::VueGeneraleSysteme::systeme",
+            "collapsedW": 266,
+            "collapsedH": 72
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme::traitement": {
+            "x": 306,
+            "y": 180,
+            "parentKey": "VueGenerale::VueGeneraleSysteme::systeme",
+            "collapsedW": 214,
+            "collapsedH": 72
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme::commande": {
+            "x": 334,
+            "y": 48,
+            "parentKey": "VueGenerale::VueGeneraleSysteme::systeme",
+            "collapsedW": 189,
+            "collapsedH": 72
+          },
+          "VueGenerale::VueGeneraleSysteme::systeme::surveillance": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::VueGeneraleSysteme::systeme",
+            "collapsedW": 280,
+            "collapsedH": 100
+          },
+          "VueGenerale::VueGeneraleSysteme::utilisateur": {
+            "x": 615,
+            "y": 318,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "collapsedW": 191,
+            "collapsedH": 58
+          },
+          "VueGenerale::VueGeneraleSysteme::gestionnaire": {
+            "x": 615,
+            "y": 228,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "collapsedW": 205,
+            "collapsedH": 58
+          },
+          "VueGenerale::VueGeneraleSysteme::agentSecurite": {
+            "x": 615,
+            "y": 138,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "collapsedW": 218,
+            "collapsedH": 58
+          },
+          "VueGenerale::VueGeneraleSysteme::technicien": {
+            "x": 838,
+            "y": 318,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "VueGenerale::VueGeneraleSysteme::securiteIncendie": {
+            "x": 615,
+            "y": 48,
+            "parentKey": "VueGenerale::VueGeneraleSysteme",
+            "collapsedW": 259,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::identification::smartphone": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::identification",
+            "collapsedW": 198,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::identification::lecteur": {
+            "x": 22,
+            "y": 138,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::identification",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::autorisations::base": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::autorisations",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::traitement::controleur": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::traitement",
+            "collapsedW": 211,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::commande::porte": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::commande",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::surveillance::capteurs": {
+            "x": 22,
+            "y": 138,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::surveillance",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::surveillance::analyse": {
+            "x": 22,
+            "y": 228,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::surveillance",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "VueGenerale::ATMD_PreviAccess::surveillance::supervision": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::ATMD_PreviAccess::surveillance",
+            "collapsedW": 252,
+            "collapsedH": 58
+          },
+          "VueGenerale::IdentificationNFC::smartphone": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::IdentificationNFC",
+            "collapsedW": 198,
+            "collapsedH": 58
+          },
+          "VueGenerale::IdentificationNFC::lecteur": {
+            "x": 22,
+            "y": 138,
+            "parentKey": "VueGenerale::IdentificationNFC",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "VueGenerale::GestionAutorisations::base": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::GestionAutorisations",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::TraitementAcces::controleur": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::TraitementAcces",
+            "collapsedW": 211,
+            "collapsedH": 58
+          },
+          "VueGenerale::CommandeAcces::porte": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::CommandeAcces",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::SurveillanceMaintenance::capteurs": {
+            "x": 22,
+            "y": 138,
+            "parentKey": "VueGenerale::SurveillanceMaintenance",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "VueGenerale::SurveillanceMaintenance::analyse": {
+            "x": 22,
+            "y": 228,
+            "parentKey": "VueGenerale::SurveillanceMaintenance",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "VueGenerale::SurveillanceMaintenance::supervision": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "VueGenerale::SurveillanceMaintenance",
+            "collapsedW": 252,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {}
+      }
+    }
+  }
+}
